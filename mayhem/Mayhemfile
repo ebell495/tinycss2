@@ -1,0 +1,6 @@
+project: tinycss2
+target: tinycss2_fuzz
+
+cmds:
+    - cmd: /tinycss2/fuzz/tinycss2_fuzz.py
+      libfuzzer: true
